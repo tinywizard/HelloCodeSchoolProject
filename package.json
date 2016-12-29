@@ -4,7 +4,7 @@
   "description": "Sample Code School Project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/"
+    "test": "mocha test/"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,24 @@
     "chai": "^3.5.0",
     "jsdom": "^9.2.1",
     "mocha": "^2.5.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinywizard/HelloCodeSchoolProject.git"
+  },
+  "keywords": [
+    "codeschool",
+    "tutorials"
+  ],
+  "bugs": {
+    "url": "https://github.com/tinywizard/HelloCodeSchoolProject/issues"
+  },
+  "homepage": "https://github.com/tinywizard/HelloCodeSchoolProject#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^9.9.1"
   }
 }
